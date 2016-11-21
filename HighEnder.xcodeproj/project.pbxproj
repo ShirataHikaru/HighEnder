@@ -12,6 +12,8 @@
 		C40AA9AB1DE00C1600720669 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C40AA9A91DE00C1600720669 /* Main.storyboard */; };
 		C40AA9AD1DE00C1600720669 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C40AA9AC1DE00C1600720669 /* Assets.xcassets */; };
 		C40AA9B01DE00C1600720669 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C40AA9AE1DE00C1600720669 /* LaunchScreen.storyboard */; };
+		C40AA9C01DE04C9000720669 /* asset in Resources */ = {isa = PBXBuildFile; fileRef = C40AA9BF1DE04C9000720669 /* asset */; };
+		C40AA9C21DE061B000720669 /* professionalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40AA9C11DE061B000720669 /* professionalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		C40AA9AC1DE00C1600720669 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C40AA9AF1DE00C1600720669 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C40AA9B11DE00C1600720669 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C40AA9BF1DE04C9000720669 /* asset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = asset; sourceTree = "<group>"; };
+		C40AA9C11DE061B000720669 /* professionalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = professionalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +60,12 @@
 			children = (
 				C40AA9A51DE00C1600720669 /* AppDelegate.swift */,
 				C40AA9A71DE00C1600720669 /* ViewController.swift */,
+				C40AA9C11DE061B000720669 /* professionalViewController.swift */,
 				C40AA9A91DE00C1600720669 /* Main.storyboard */,
 				C40AA9AC1DE00C1600720669 /* Assets.xcassets */,
 				C40AA9AE1DE00C1600720669 /* LaunchScreen.storyboard */,
 				C40AA9B11DE00C1600720669 /* Info.plist */,
+				C40AA9BF1DE04C9000720669 /* asset */,
 			);
 			path = HighEnder;
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C40AA9B01DE00C1600720669 /* LaunchScreen.storyboard in Resources */,
+				C40AA9C01DE04C9000720669 /* asset in Resources */,
 				C40AA9AD1DE00C1600720669 /* Assets.xcassets in Resources */,
 				C40AA9AB1DE00C1600720669 /* Main.storyboard in Resources */,
 			);
@@ -137,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C40AA9C21DE061B000720669 /* professionalViewController.swift in Sources */,
 				C40AA9A81DE00C1600720669 /* ViewController.swift in Sources */,
 				C40AA9A61DE00C1600720669 /* AppDelegate.swift in Sources */,
 			);
@@ -263,6 +271,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CXU6BD8CC4;
 				INFOPLIST_FILE = HighEnder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Shirata.HighEnder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -276,6 +285,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CXU6BD8CC4;
 				INFOPLIST_FILE = HighEnder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Shirata.HighEnder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -302,6 +312,7 @@
 				C40AA9B61DE00C1600720669 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
